@@ -1,0 +1,10 @@
+.TvProgramm .News__header li {
+  display: flex;
+  gap: 10px;
+  direction: rtl;
+}
+
+.TvProgramm img {
+  width: 30px;
+  height: auto
+}

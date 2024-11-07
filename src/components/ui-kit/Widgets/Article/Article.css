@@ -1,0 +1,17 @@
+.Article h2 {
+  margin: 0;
+  font-size: 19px;
+
+  color: rgb(100, 108, 255);
+}
+
+.Article img {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+}
+
+.Article span {
+  font-size: 17px;
+}

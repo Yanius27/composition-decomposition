@@ -1,0 +1,16 @@
+{
+  "source": {
+    "include": ["src"],
+    "includePattern": ".+\\.(ts|tsx|js|jsx)$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": ["node_modules/jsdoc-plugin-typescript"],
+  "opts": {
+    "destination": "./out"
+  },
+  "templates": {
+    "default": {
+      "outputSourceFiles": true
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.Page {
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  margin: 0;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Page__header {
+  width: 100%;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 150px;
+}
+
+.Page__content {
+  width: 890px;
+  margin-top: 0;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Page__widgets {
+  width: 800px;
+
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.Page__widgets div {
+  width: 33%;
+
+  text-wrap: nowrap;
+}
+
+.Page__widgets article {
+  width: 33%;
+
+  text-wrap: nowrap;
+}
+
+.Page__widgets div ul {
+  padding: 0;
+}
